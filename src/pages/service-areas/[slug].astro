@@ -38,7 +38,7 @@ const nearby = a.nearby.map((s) => areaBySlug[s]);
       </div>
     </div>
     <div>
-      <h3 class="side-title">Common requests in {a.name}</h3>
+      <h3 class="side-title">Questions to settle in {a.name}</h3>
       <ul class="call-list">{a.calls.map((c) => <li>{c}</li>)}</ul>
     </div>
   </div></section>
@@ -48,6 +48,14 @@ const nearby = a.nearby.map((s) => areaBySlug[s]);
       {nearby.map((n) => <a class="pill" href={u(`/service-areas/${n.slug}`)}>Hydro jetting in {n.name}</a>)}
       <a class="pill" href={u('/service-areas')}>All service areas</a>
     </div>
+  </div></section>
+
+  <Callout title={`Request drain service in ${a.name}`} text="Include the address, affected fixtures and any previous inspection record." />
+  <section class="content-section"><div class="content-inner prose">
+    <h2 class="section-title">Questions about drains in {a.name}</h2>
+    {a.faqs.map(f => <details style="border-bottom:1px solid #d5d6cc;padding:18px 0"><summary style="font-weight:600;cursor:pointer">{f.question}</summary><p style="margin-top:12px">{f.answer}</p></details>)}
+    <h3 style="margin-top:32px">Local sources</h3>
+    <ul style="padding-left:20px">{a.sources.map(s => <li><a href={s.url} target="_blank" rel="noopener noreferrer" style="text-decoration:underline">{s.label}</a></li>)}</ul>
   </div></section>
   <Callout title={`Need hydro jetting in ${a.name}?`} text="Include your address and what the drain is doing, and we will follow up." />
 </Base>

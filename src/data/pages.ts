@@ -15,7 +15,7 @@ export const pages: Record<string, PageInfo> = {
     title: 'Hydro Jetting in Tallmadge, OH | Tallmadge Hydro Jetting Pros',
     description: 'Hydro jetting for residential and commercial drain lines in Tallmadge, Ohio. Learn how water-jet line cleaning works and request service.',
     headline: 'A clearer path through the line.',
-    intro: 'When a drain keeps slowing down, the obstruction may be farther in than a household tool can reach. Hydro jetting uses directed water flow to clean the inside of a suitable drain line.',
+    intro: 'Hydro jetting in Tallmadge, Ohio needs a sewer-district check before a cleaning plan. The city has two sanitary sewer districts and also identifies properties with septic systems.',
     sectionTitle: 'One specialty. A practical next step.',
     sectionText: 'Tallmadge Hydro Jetting Pros focuses exclusively on hydro jetting applications for nearby homes and businesses. Share what is happening and where; we can discuss whether the method fits the line.',
     items: withIds([
@@ -73,7 +73,7 @@ export const pages: Record<string, PageInfo> = {
   areas: {
     path: '/service-areas', name: 'Service Areas',
     title: 'Hydro Jetting Service Areas | Tallmadge Hydro Jetting Pros',
-    description: 'Tallmadge Hydro Jetting Pros focuses on hydro jetting in Tallmadge, Ohio, and nearby communities including Akron, Stow, Kent, and Mogadore.',
+    description: 'Tallmadge Hydro Jetting Pros focuses on hydro jetting in Tallmadge, Ohio, and nearby communities including Stow, Kent, and Mogadore.',
     headline: 'Hydro jetting close to home.',
     intro: 'Tallmadge is the center of our local focus. Nearby communities can use the request form to share a location and ask about hydro jetting for a specific line.',
     sectionTitle: 'Serving Tallmadge and surrounding towns.',
