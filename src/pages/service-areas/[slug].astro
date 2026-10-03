@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import Hero from '../../components/Hero.astro';
+import Callout from '../../components/Callout.astro';
+import { areas, areaBySlug } from '../../data/areas';
+import { SITE_URL, business } from '../../lib/site';
+import { u } from '../../lib/utils';
+
+export function getStaticPaths() {
+  return areas.map((area) => ({ params: { slug: area.slug }, props: { area } }));
+}
+const { area: a } = Astro.props;
+const path = `/service-areas/${a.slug}`;
+const title = `Hydro Jetting in ${a.name}, OH | ${business.name}`;
+const description = `${business.name} takes hydro jetting requests for drain lines in ${a.name}, Ohio. Learn what to expect and request service for your home or business.`;
+const pageUrl = `${SITE_URL}${path}`;
+const service = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': `${pageUrl}#service`,
+  name: `Hydro jetting in ${a.name}, Ohio`,
+  serviceType: 'Hydro jetting',
+  provider: { '@id': `${SITE_URL}/#business` },
+  areaServed: { '@type': a.place === 'city' ? 'City' : 'AdministrativeArea', name: `${a.name}, Ohio` },
+  description,
+};
+const nearby = a.nearby.map((s) => areaBySlug[s]);
+---
+<Base title={title} description={description} path={path} crumbs={[{ name: 'Service Areas', path: '/service-areas' }, { name: a.name, path }]} extraSchema={[service]}>
+  <Hero headline={`Hydro jetting in ${a.name}, Ohio`} intro={a.intro} location={`${a.name}, OH`} crumbs={[{ href: '/service-areas', label: 'Service Areas' }, { href: path, label: a.name }]} />
+  <section class="content-section"><div class="content-inner split-section">
+    <div class="prose">
+      <h2 class="section-title">{a.title}</h2>
+      {a.paragraphs.map((p) => <p>{p}</p>)}
+      <div style="margin-top:20px;display:flex;gap:26px;flex-wrap:wrap">
+        <a class="text-link" href={u('/hydro-jetting')}>How hydro jetting works<span aria-hidden="true">&#8599;</span></a>
+        <a class="text-link" href={u('/services')}>Our services<span aria-hidden="true">&#8599;</span></a>
+      </div>
+    </div>
+    <div>
+      <h3 class="side-title">Common requests in {a.name}</h3>
+      <ul class="call-list">{a.calls.map((c) => <li>{c}</li>)}</ul>
+    </div>
+  </div></section>
+  <section class="content-section" style="background:#eeece2"><div class="content-inner">
+    <h2 class="section-title">Nearby towns</h2>
+    <div class="pill-grid">
+      {nearby.map((n) => <a class="pill" href={u(`/service-areas/${n.slug}`)}>Hydro jetting in {n.name}</a>)}
+      <a class="pill" href={u('/service-areas')}>All service areas</a>
+    </div>
+  </div></section>
+  <Callout title={`Need hydro jetting in ${a.name}?`} text="Include your address and what the drain is doing, and we will follow up." />
+</Base>

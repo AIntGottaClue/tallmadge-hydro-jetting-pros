@@ -1,0 +1,22 @@
+---
+import RequestForm from './RequestForm.astro';
+import { business } from '../lib/site';
+import { u } from '../lib/utils';
+const { headline, intro, location, crumbs = [] } = Astro.props;
+---
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      {crumbs.length > 0 && (
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <a href={u('/')}>Home</a>
+          {crumbs.map((c, i) => <><span aria-hidden="true">/</span>{i < crumbs.length - 1 ? <a href={u(c.href)}>{c.label}</a> : <span>{c.label}</span>}</>)}
+        </nav>
+      )}
+      <h1>{headline}</h1>
+      <p class="hero-copy">{intro}</p>
+      <div class="hero-note"><strong>Local hydro-jetting focus</strong><span>&middot;</span>Tallmadge, Ohio</div>
+    </div>
+    <RequestForm location={location} />
+  </div>
+</section>
