@@ -24,11 +24,12 @@ const service = {
   areaServed: { '@type': a.place === 'city' ? 'City' : 'AdministrativeArea', name: `${a.name}, Ohio` },
   description,
 };
+const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: a.faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) };
 const nearby = a.nearby.map((s) => areaBySlug[s]);
 ---
-<Base title={title} description={description} path={path} crumbs={[{ name: 'Service Areas', path: '/service-areas' }, { name: a.name, path }]} extraSchema={[service]}>
+<Base title={title} description={description} path={path} crumbs={[{ name: 'Service Areas', path: '/service-areas' }, { name: a.name, path }]} extraSchema={[service, faqSchema]}>
   <Hero headline={`Hydro jetting in ${a.name}, Ohio`} intro={a.intro} location={`${a.name}, OH`} crumbs={[{ href: '/service-areas', label: 'Service Areas' }, { href: path, label: a.name }]} />
-  <section class="content-section"><div class="content-inner split-section">
+  <section class="content-section"><div class="content-inner">
     <div class="prose">
       <h2 class="section-title">{a.title}</h2>
       {a.paragraphs.map((p) => <p>{p}</p>)}
@@ -37,10 +38,7 @@ const nearby = a.nearby.map((s) => areaBySlug[s]);
         <a class="text-link" href={u('/services')}>Our services<span aria-hidden="true">&#8599;</span></a>
       </div>
     </div>
-    <div>
-      <h3 class="side-title">Questions to settle in {a.name}</h3>
-      <ul class="call-list">{a.calls.map((c) => <li>{c}</li>)}</ul>
-    </div>
+
   </div></section>
   <section class="content-section" style="background:#eeece2"><div class="content-inner">
     <h2 class="section-title">Nearby towns</h2>
@@ -52,7 +50,7 @@ const nearby = a.nearby.map((s) => areaBySlug[s]);
 
   <Callout title={`Request drain service in ${a.name}`} text="Include the address, affected fixtures and any previous inspection record." />
   <section class="content-section"><div class="content-inner prose">
-    <h2 class="section-title">Questions about drains in {a.name}</h2>
+    <h2 class="section-title">Drain cleaning FAQs in {a.name}</h2>
     {a.faqs.map(f => <details style="border-bottom:1px solid #d5d6cc;padding:18px 0"><summary style="font-weight:600;cursor:pointer">{f.question}</summary><p style="margin-top:12px">{f.answer}</p></details>)}
     <h3 style="margin-top:32px">Local sources</h3>
     <ul style="padding-left:20px">{a.sources.map(s => <li><a href={s.url} target="_blank" rel="noopener noreferrer" style="text-decoration:underline">{s.label}</a></li>)}</ul>

@@ -10,19 +10,19 @@ export const areas: Area[] = [
     ],
     "faqs": [
       {
-        "question": "Why does the Tallmadge sewer district matter?",
+        "question": "Who should I call about a public sewer backup in Tallmadge?",
         "answer": "District I public sewers are city-maintained; District II public sewers are county-operated. The right utility contact depends on the address."
       },
       {
-        "question": "Can the city bill identify the operator?",
+        "question": "Does my Tallmadge utility bill tell me who maintains the sewer?",
         "answer": "Not by itself. Tallmadge also bills connected District II residents even though the county operates that system."
       },
       {
-        "question": "Is every Tallmadge home on sanitary sewer?",
-        "answer": "Do not assume so. The city publishes septic information alongside its sewer districts. Check the actual property connection."
+        "question": "Is my Tallmadge home on public sewer or septic?",
+        "answer": "Check your property records or ask the utility about your address. Tallmadge has both sanitary sewer districts and properties with septic systems, so a city address alone does not settle the connection."
       },
       {
-        "question": "Who reviews a septic replacement?",
+        "question": "Who should I contact if my Tallmadge septic system needs replacing?",
         "answer": "For a Summit County property, Summit County Public Health handles site and soil evaluation and installation or alteration permits. Confirm the exact parcel jurisdiction."
       },
       {
@@ -78,11 +78,11 @@ export const areas: Area[] = [
     ],
     "faqs": [
       {
-        "question": "What is the city stormwater inspection for?",
+        "question": "Could a stormwater connection be causing my Cuyahoga Falls backup?",
         "answer": "It identifies clean-water inflow, infiltration and improper sanitary connections on private property."
       },
       {
-        "question": "Is there a disclosure when a house is sold?",
+        "question": "Should I check the stormwater report when buying a Cuyahoga Falls home?",
         "answer": "The city says both buyer and seller must sign the stormwater inspection disclosure."
       },
       {
@@ -142,11 +142,11 @@ export const areas: Area[] = [
     ],
     "faqs": [
       {
-        "question": "Why ask when a Stow house was built?",
-        "answer": "The city plan documents homes from different eras. That provides context, but does not prove present pipe material."
+        "question": "Is hydro jetting suitable for an older Stow home?",
+        "answer": "It may be suitable if the line is sound. Stow's plan documents homes from different eras, so check pipe condition and repair history before selecting high-pressure cleaning."
       },
       {
-        "question": "Who provides Stow sanitary sewer?",
+        "question": "Who should I call if several Stow homes have sewer backups?",
         "answer": "The city names Summit County Department of Sanitary Sewer Services, separately from its water department."
       },
       {
@@ -207,15 +207,15 @@ export const areas: Area[] = [
     ],
     "faqs": [
       {
-        "question": "Does a South End house always have old sewer pipe?",
-        "answer": "No. Housing history and pipe condition are separate facts. Repairs and replacements can change the line."
+        "question": "Does my older Kent house need a camera inspection first?",
+        "answer": "A camera inspection is useful when a main drain repeatedly backs up or the pipe condition is unknown. Kent's South End includes historic homes, but renovations and replacements mean house age alone cannot identify the drain material."
       },
       {
-        "question": "Why does a Kent rental need an access plan?",
+        "question": "What should I do if a drain backs up in my Kent rental?",
         "answer": "Identify the affected unit, manager and shared drain access before arranging work. Supply previous drain reports if available."
       },
       {
-        "question": "Who treats Kent municipal wastewater?",
+        "question": "Could my Kent backup involve the public sewer?",
         "answer": "The City of Kent Water Reclamation Division treats wastewater delivered through the sanitary collection system."
       },
       {
@@ -276,15 +276,15 @@ export const areas: Area[] = [
     ],
     "faqs": [
       {
-        "question": "Why ask for the county in Mogadore?",
+        "question": "Who should I call if my Mogadore home has septic trouble?",
         "answer": "The village spans Summit and Portage counties. Jurisdiction matters for onsite treatment and permit questions."
       },
       {
-        "question": "Does the mailing address identify my operator?",
+        "question": "How do I find out who handles sewer service at my Mogadore home?",
         "answer": "Not reliably. Confirm the street address and actual connection."
       },
       {
-        "question": "Which authority handles onsite treatment?",
+        "question": "Which health district should I contact about my Mogadore septic system?",
         "answer": "Confirm the parcel; Summit and Portage health authorities publish guidance for their separate jurisdictions."
       },
       {
@@ -344,7 +344,7 @@ export const areas: Area[] = [
         "answer": "Summit County provides sanitary service. Munroe Falls handles public water and stormwater under its Water Division."
       },
       {
-        "question": "Does the city water bill settle a sanitary problem?",
+        "question": "Should I call Munroe Falls or the county about a sewer backup?",
         "answer": "No. The utility guide describes separate responsibilities."
       },
       {
