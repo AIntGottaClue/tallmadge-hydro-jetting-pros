@@ -1,8 +1,10 @@
 ---
+import { pageImage } from '../lib/pageImages';
 import RequestForm from './RequestForm.astro';
 import { business } from '../lib/site';
 import { u } from '../lib/utils';
 const { headline, intro, location, crumbs = [] } = Astro.props;
+const relevantImage = pageImage(headline);
 ---
 <section class="hero">
   <div class="hero-inner">
@@ -15,6 +17,7 @@ const { headline, intro, location, crumbs = [] } = Astro.props;
       )}
       <h1>{headline}</h1>
       <p class="hero-copy">{intro}</p>
+      <img src={u(relevantImage.src)} alt={relevantImage.alt} width="1200" height="896" loading="eager" decoding="async" fetchpriority="high" style="display:block;width:100%;max-width:520px;height:clamp(190px,22vw,280px);object-fit:cover;border-radius:4px;margin:24px 0 0" />
       <div class="hero-note"><strong>Local hydro-jetting focus</strong><span>&middot;</span>Tallmadge, Ohio</div>
     </div>
     <RequestForm location={location} />
