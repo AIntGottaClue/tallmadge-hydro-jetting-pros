@@ -14,7 +14,7 @@ document.querySelectorAll('[data-lead-form]').forEach(form => {
     form.reset(); form.elements.phone.setCustomValidity('');
     form.querySelector('[role="status"]').textContent = '';
     activeLeads.delete(form); success.hidden = true; form.hidden = false;
-    card.querySelector('.form-card-head').hidden = false;
+    card.querySelector('.form-card-head').style.display = '';
     form.elements.full_name.focus();
   });
 });
@@ -77,7 +77,7 @@ window.fetch = function(url,options) {
           activeLeads.delete(form);
           const view=cards.get(form);
           form.querySelector('[role="status"]').textContent='';
-          form.hidden=true; view.card.querySelector('.form-card-head').hidden=true; view.success.hidden=false;
+          form.hidden=true; view.card.querySelector('.form-card-head').style.display='none'; view.success.hidden=false;
           view.success.scrollIntoView({behavior:'smooth',block:'center'});
           view.success.focus({preventScroll:true});
         })).catch(() => {
