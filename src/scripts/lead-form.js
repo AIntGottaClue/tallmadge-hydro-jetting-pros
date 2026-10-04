@@ -8,7 +8,7 @@ document.querySelectorAll('[data-lead-form]').forEach(form => {
   success.className = 'lead-success'; success.hidden = true;
   success.setAttribute('role', 'status'); success.setAttribute('aria-live', 'polite');
   success.setAttribute('tabindex', '-1');
-  success.innerHTML = '<svg viewBox="0 0 64 64" width="72" height="72" aria-hidden="true"><circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="5"/><path d="M21 33.5l7.5 7.5L43.5 25" fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/></svg><h2>Request received</h2><p>We have your hydro jetting request and will review the details. Watch your phone and email for a response.</p><button type="button" class="lead-success__again">Submit another request</button>';
+  success.innerHTML = '<svg style="color:#22c55e" viewBox="0 0 64 64" width="72" height="72" aria-hidden="true"><circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="5"/><path d="M21 33.5l7.5 7.5L43.5 25" fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/></svg><h2>Request Received</h2><p>We have your hydro jetting request and will review the details. Watch your phone and email for a response.</p><button type="button" class="lead-success__again">Submit another request</button>';
   card.append(success); cards.set(form, {card, success});
   success.querySelector('button').addEventListener('click', () => {
     form.reset(); form.elements.phone.setCustomValidity('');
