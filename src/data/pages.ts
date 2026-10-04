@@ -123,7 +123,7 @@ export const pages: Record<string, PageInfo> = {
     sectionTitle: 'What happens to a request.',
     sectionText: 'When you submit the request form, the details you enter are sent so the request can be followed up by phone or email. They are used to respond to your request.',
     items: [
-      { title: 'Information you enter', text: 'The request form asks for your name, phone, service address and a description of the drain issue. Email is optional. Share only what is needed to describe the request.' },
+      { title: 'Information you enter', text: 'The request form asks for your name, phone, email and a description of the drain problem. Share only what is needed to describe the request.' },
       { title: 'Calling instead', text: `If you prefer, call ${P}. Do not include sensitive information such as payment details in a website message.` },
       { title: 'Analytics', text: 'This site uses Google Analytics to count visits and see which pages are used. It collects usage information from your browser, not the contents of your request form.' },
       { title: 'Other sites', text: 'This page does not describe data practices for services outside this website. See the terms page for information about using this site.' },
