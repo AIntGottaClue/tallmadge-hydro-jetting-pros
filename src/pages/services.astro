@@ -1,5 +1,11 @@
 ---
-import StandardPage from '../components/StandardPage.astro';
-import { pages } from '../data/pages';
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import Callout from '../components/Callout.astro';
+import {serviceLinks} from '../lib/site';
+import {u} from '../lib/utils';
 ---
-<StandardPage page={pages.services} ids={true} />
+<Base title="Hydro Jetting Services | Tallmadge Hydro Jetting Pros" description="Explore five hydro jetting applications and two guides for Tallmadge homes and businesses." path="/services" crumbs={[{name:'Services',path:'/services'}]}>
+<Hero headline="Hydro jetting services in Tallmadge" intro="Choose the drain concern that matches your symptoms, or read the guides before requesting a conversation. The line condition and wastewater connection determine the next step." location="Services"/>
+<section class="content-section"><div class="content-inner"><h2 class="section-title">Services and practical guides</h2><p class="section-intro">Each page explains a specific application, Tallmadge wastewater context and questions to discuss before cleaning.</p><div class="item-list">{serviceLinks.map(l=><div style="padding:24px 0;border-bottom:1px solid #c8d1cb"><h3><a href={u(l.href)}>{l.label}</a></h3><p>Read the line-assessment guidance and answered questions for {l.label.toLowerCase()}.</p></div>)}</div></div></section><Callout/>
+</Base>
