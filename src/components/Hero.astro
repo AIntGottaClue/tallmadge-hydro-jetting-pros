@@ -17,7 +17,7 @@ const relevantImage = pageImage(headline);
       )}
       <h1>{headline}</h1>
       <p class="hero-copy">{intro}</p>
-      <img src={u(relevantImage.src)} alt={relevantImage.alt} width="1200" height="896" loading="eager" decoding="async" fetchpriority="high" style="display:block;width:100%;max-width:520px;height:clamp(190px,22vw,280px);object-fit:cover;border-radius:4px;margin:24px 0 0" />
+      {!['Privacy','Terms'].includes(location) && <img src={u(relevantImage.src)} alt={relevantImage.alt} width="1200" height="896" loading="eager" decoding="async" fetchpriority="high" style="display:block;width:100%;max-width:520px;height:clamp(190px,22vw,280px);object-fit:cover;border-radius:4px;margin:24px 0 0" />}
       <div class="hero-note"><strong>Local hydro-jetting focus</strong><span>&middot;</span>Tallmadge, Ohio</div>
     </div>
     <RequestForm location={location} />
