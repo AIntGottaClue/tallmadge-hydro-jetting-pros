@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tallmadgehydrojetting.prosapp.site/sitemap.xml
