@@ -1,0 +1,53 @@
+---
+import { hoods } from '../data/areas';
+import { hoodHtml } from '../lib/hoodText';
+import { u } from '../lib/utils';
+const { a } = Astro.props;
+const h = (t: string) => hoodHtml(t, (s: string) => u(`/${s}`));
+const others = hoods.filter((x: any) => x.slug !== a.slug);
+const linkStyle = '<style>.hood a:not(.pill):not(.text-link){color:var(--teal);text-decoration:underline;text-underline-offset:3px}.hood h3{font:600 20px "Space Grotesk Variable","Space Grotesk";margin:26px 0 8px;color:var(--ink)}.hood ul{color:#586768;line-height:1.75;font-size:15px;padding-left:20px;max-width:680px}.hood .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-top:24px}.hood .step{border:1px solid #d7d5c8;padding:18px;background:#f7f5ea}.hood .step b{color:var(--teal)}.hood .step h3{margin:6px 0}.hood .step p{margin:0;font-size:14px}.hood iframe{width:100%;height:420px;border:1px solid #d0d0c6;margin-top:20px}</style>';
+---
+<Fragment set:html={linkStyle} />
+<section class="content-section hood"><div class="content-inner prose">
+  <h2 class="section-title">{a.bodyH2}</h2>
+  {a.bodyPs.map((p: string) => <p set:html={h(p)} />)}
+  <h3>What Local Property Owners Often Consider</h3>
+  <ul>{a.considerations.map((c: string) => <li>{c}</li>)}</ul>
+</div></section>
+<section class="content-section hood" style="background:#eeece2"><div class="content-inner prose">
+  <h2 class="section-title">{a.svcH2}</h2>
+  <p>{a.svcLead}</p>
+  {Object.values(a.svc).map((p: any) => <p set:html={h(p)} />)}
+</div></section>
+<section class="content-section hood"><div class="content-inner prose">
+  <h2 class="section-title">{a.appsH2}</h2>
+  {a.apps.map((x: any) => (<><h3>{x.h}</h3><p set:html={h(x.p)} /></>))}
+</div></section>
+<section class="content-section hood" style="background:#eeece2"><div class="content-inner prose">
+  <h2 class="section-title">{a.implH2}</h2>
+  {a.implPs.map((p: string) => <p>{p}</p>)}
+  {a.impl.map((x: any) => (<><h3>{x.h}</h3><p set:html={h(x.p)} /><ul>{x.b.map((b: string) => <li>{b}</li>)}</ul></>))}
+</div></section>
+<section class="content-section hood"><div class="content-inner prose">
+  <h2 class="section-title">{a.planH2}</h2>
+  <p>{a.planPs[0]}</p>
+  <div class="steps">{a.steps.map((s: any, i: number) => <div class="step"><b>{String(i + 1).padStart(2, '0')}</b><h3>{s.t}</h3><p>{s.d}</p></div>)}</div>
+</div></section>
+<section class="content-section hood" style="background:#eeece2"><div class="content-inner prose">
+  <h2 class="section-title">{a.mapH2}</h2>
+  <p>{a.mapIntro}</p>
+  <iframe src={a.map.src} loading="lazy" referrerpolicy="no-referrer-when-downgrade" title={a.map.label}></iframe>
+</div></section>
+<section class="content-section hood"><div class="content-inner">
+  <h2 class="section-title">{a.nearbyH2}</h2>
+  <p class="section-intro">{a.nearbyP}</p>
+  <div class="pill-grid">{others.map((n: any) => <a class="pill" href={u(`/service-areas/${n.slug}`)}>{n.name}</a>)}<a class="pill" href={u('/service-areas')}>All neighborhoods</a></div>
+</div></section>
+<section class="content-section hood" style="background:#eeece2"><div class="content-inner prose">
+  <h2 class="section-title">Hydro jetting questions in {a.name}</h2>
+  {a.faqs.map((f: any) => <details style="border-bottom:1px solid #d5d6cc;padding:18px 0"><summary style="font-weight:600;cursor:pointer">{f.q}</summary><p style="margin-top:12px">{f.a}</p></details>)}
+</div></section>
+<section class="content-section hood"><div class="content-inner prose">
+  <h2 class="section-title">{a.ctaH2}</h2>
+  {a.ctaPs.map((p: string) => <p>{p}</p>)}
+</div></section>

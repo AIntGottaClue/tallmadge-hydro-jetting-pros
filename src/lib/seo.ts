@@ -10,7 +10,7 @@ export function businessSchema() {
     url: SITE_URL,
     telephone: business.phoneE164,
     address: { '@type': 'PostalAddress', addressLocality: business.city, addressRegion: business.region, addressCountry: business.country },
-    areaServed: areas.map((a) => ({ '@type': 'City', name: `${a.name}, Ohio` })),
+    areaServed: [{ '@type': 'City', name: 'Tallmadge, Ohio' }],
     knowsAbout: ['Hydro jetting', 'Residential drain cleaning', 'Commercial and grease lines', 'Sewer camera inspection'],
   };
 }

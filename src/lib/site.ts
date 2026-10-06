@@ -29,7 +29,7 @@ export const navLinks = [
   { href: '/hydro-jetting', label: 'Hydro Jetting' },
   { href: '/services', label: 'Services', children: true },
   { href: '/our-process', label: 'Our Process' },
-  { href: '/service-areas', label: 'Service Areas', children: true },
+  { href: '/service-areas', label: 'Neighborhoods', children: true },
   { href: '/faq', label: 'FAQ' },
   { href: '/contact', label: 'Contact' },
 ] as const;

@@ -1,0 +1,682 @@
+[
+ {
+  "slug": "tallmadge-circle",
+  "name": "Tallmadge Circle",
+  "title": "Hydro Jetting at Tallmadge Circle, Tallmadge OH | Tallmadge Hydro Jetting Pros",
+  "description": "Hydro jetting for homes and buildings around the historic Tallmadge Circle in Tallmadge, OH. Call (877) 761-0283.",
+  "hero": "Hydro jetting around Tallmadge Circle can clear grease, scale and roots from drain lines serving some of the city's oldest properties. The Circle was laid out in 1807, so buildings nearby have often been altered and repaired many times. A camera inspection first shows what the line is made of and whether it can take high-pressure cleaning.",
+  "bodyH2": "Hydro Jetting for Properties Around the Circle",
+  "bodyPs": [
+   "The [[City of Tallmadge|https://www.tallmadgeoh.gov/210/Our-History]] says the community was founded in 1807 by the Reverend David Bacon, who laid out the Circle on a New England town plan with eight roads running out from a central core. The [[Summit County Historical Society|https://www.summithistory.org/Tallmadge]] adds that the Circle, with its First Congregational Church and Old Town Hall, was placed on the National Register of Historic Places in 1971.",
+   "Early development followed those roads outward from the center, so homes closest to the Circle are among the oldest in the city. The [[Beacon Journal|https://www.beaconjournal.com/story/news/local/2013/03/24/local-history-tallmadge-circle-is/10606259007/]] reports that Bacon planned the roads 66 feet wide at 45-degree angles from a 7½-acre central square. A house or shop near the center may have gone through additions, conversions and pipe replacements. Each change is a place where buildup can start.",
+   "Hydro jetting can clear a sound line of grease, scale and roots. It is not a fix for a broken pipe, which needs a repair plan."
+  ],
+  "considerations": [
+   "Where the cleanout is, which may be in a basement or an addition",
+   "Whether any sections were replaced and with what material",
+   "Large older trees near the lateral",
+   "Whether the building is a home, an office or both",
+   "Which fixtures are affected",
+   "Whether work on the exterior of an older building may need a conversation with the city first"
+  ],
+  "svcH2": "Hydro Jetting Services for Properties Around the Circle",
+  "svcLead": "Choose the page that matches what your drain is doing.",
+  "svc": {
+   "severe-grease-and-sludge": "Older kitchens can hold years of film, covered in {{svc:severe-grease-and-sludge|severe grease and sludge}}.",
+   "tree-root-intrusions": "Mature trees around the Circle can reach old joints, as {{svc:tree-root-intrusions|tree root intrusions}} explains.",
+   "recurring-clogs-and-slow-drains": "For drains that keep slowing, see {{svc:recurring-clogs-and-slow-drains|recurring clogs and slow drains}}.",
+   "mineral-and-scale-deposits": "Scale in older pipe is described in {{svc:mineral-and-scale-deposits|mineral and scale deposits}}.",
+   "preventative-maintenance": "To keep a cleaned line clear, read {{svc:preventative-maintenance|preventative maintenance}}."
+  },
+  "appsH2": "Where Hydro Jetting Comes Up Near the Circle",
+  "apps": [
+   {
+    "h": "Older homes with additions",
+    "p": "A house near the center may have grown room by room. Those additions can tie new fixtures into old pipe at awkward angles."
+   },
+   {
+    "h": "Small commercial buildings",
+    "p": "Offices and small shops on the roads leading to the Circle vary in what goes down their drains. Telling the crew the use of the building helps."
+   },
+   {
+    "h": "Mature trees",
+    "p": "Large trees are part of the older neighborhoods. A camera shows whether roots are in the line or the slowdown has another cause."
+   },
+   {
+    "h": "Basement drains",
+    "p": "A basement floor drain that backs up first points to a main line problem."
+   }
+  ],
+  "implH2": "Hydro Jetting Considerations Near the Circle",
+  "implPs": [
+   "Some questions are worth settling before the visit."
+  ],
+  "impl": [
+   {
+    "h": "Pipe condition",
+    "p": "A camera shows whether the line is sound.",
+    "b": [
+     "Request a camera pass",
+     "Share repair notes",
+     "Plan repair if damage is found"
+    ]
+   },
+   {
+    "h": "Access",
+    "p": "Older buildings can have tight access.",
+    "b": [
+     "Locate the cleanout",
+     "Clear a path",
+     "Note low ceilings or steps"
+    ]
+   },
+   {
+    "h": "Public or private",
+    "p": "A private line cleaning cannot repair a public sewer.",
+    "b": [
+     "Ask neighbors",
+     "Note rain timing",
+     "Report widespread backups"
+    ]
+   }
+  ],
+  "planH2": "How a Visit Near the Circle Is Planned",
+  "planPs": [
+   "The order is simple."
+  ],
+  "steps": [
+   {
+    "t": "Describe",
+    "d": "List fixtures and timing."
+   },
+   {
+    "t": "Find access",
+    "d": "Locate the cleanout."
+   },
+   {
+    "t": "Inspect",
+    "d": "Camera view."
+   },
+   {
+    "t": "Clean",
+    "d": "Jet to match."
+   },
+   {
+    "t": "Review",
+    "d": "Decide on follow-up."
+   }
+  ],
+  "mapH2": "Tallmadge Circle on the Map",
+  "mapIntro": "The map shows the Circle area for orientation only. It does not mark a business or define boundaries.",
+  "map": {
+   "lat": 41.102,
+   "lon": -81.4414,
+   "d": 0.012,
+   "label": "Area map near Tallmadge Circle, Tallmadge, Ohio",
+   "src": "https://www.openstreetmap.org/export/embed.html?bbox=-81.45700%2C41.09000%2C-81.42580%2C41.11400&layer=mapnik"
+  },
+  "nearbyH2": "Other Tallmadge Neighborhoods",
+  "nearbyP": "Tallmadge grew along its eight avenues. These pages cover the others.",
+  "faqs": [
+   {
+    "q": "Does an older house near the Circle need a camera look?",
+    "a": "It helps. Age does not tell you the pipe material."
+   },
+   {
+    "q": "Can roots block my line?",
+    "a": "They can enter older joints. A camera shows whether they are present."
+   },
+   {
+    "q": "Is jetting safe on old pipe?",
+    "a": "On sound pipe it can be. Damaged pipe needs assessment first."
+   },
+   {
+    "q": "Will cleaning repair a cracked pipe?",
+    "a": "No. Repair is separate."
+   },
+   {
+    "q": "Why does my basement drain back up first?",
+    "a": "It sits at the low point of the system."
+   },
+   {
+    "q": "Does a commercial building need anything different?",
+    "a": "Tell the crew the building's use and any trap details."
+   },
+   {
+    "q": "Could the problem be the public sewer?",
+    "a": "If neighbors see the same backup, it may be."
+   },
+   {
+    "q": "How often should I clean?",
+    "a": "It depends on the cause."
+   },
+   {
+    "q": "What does a camera inspection show?",
+    "a": "Material, joints, roots, deposits and damage."
+   },
+   {
+    "q": "What should I have ready?",
+    "a": "Address, symptoms, timing and repair history."
+   }
+  ],
+  "ctaH2": "Request Hydro Jetting Near Tallmadge Circle",
+  "ctaPs": [
+   "Describe the symptoms and what you know about the line.",
+   "Use the form or call to ask about your address."
+  ],
+  "kind": "hood",
+  "county": "Summit County",
+  "city": "Tallmadge",
+  "intro": "Hydro jetting around Tallmadge Circle can clear grease, scale and roots from drain lines serving some of the city's oldest properties."
+ },
+ {
+  "slug": "north-avenue-tallmadge-meadows",
+  "name": "North Avenue and Tallmadge Meadows",
+  "title": "Hydro Jetting on North Avenue, Tallmadge OH | Tallmadge Hydro Jetting Pros",
+  "description": "Hydro jetting for homes along North Avenue and near Tallmadge Meadows in Tallmadge, OH. Call (877) 761-0283.",
+  "hero": "Hydro jetting along North Avenue can clear grease, scale and roots from drain lines serving homes that grew along one of Tallmadge's original roads. Housing here ranges from older farmhouse-era lots to postwar subdivisions, so pipe and tree cover vary from lot to lot. A camera pass before cleaning tells you what each line actually is.",
+  "bodyH2": "Hydro Jetting Along North Avenue",
+  "bodyPs": [
+   "North Avenue is one of the eight roads that [[run out from the Circle|https://www.tallmadgeoh.gov/210/Our-History]], each named for its compass direction. The city's history page says early development extended outward along these roads, and that Tallmadge later grew as a first-generation suburb, with much building in the 1950s and 1960s.",
+   "The city lists the [[Tallmadge Meadows Area at 1088 North Avenue|https://www.tallmadgeoh.gov/facilities/facility/details/Tallmadge-Meadows-Area-15]] as a Summit Metro Parks site with a meadow loop trail, picnic tables and restrooms. Open land beside homes means mature trees and hedgerows near some lots, which can affect laterals.",
+   "The [[Record-Courier|https://www.record-courier.com/story/news/2023/12/10/is-tallmadge-circle-one-lane-or-two-mark-j-price/71837775007/]] lists the eight avenues by name, and North Avenue is the one that leads out toward the northern part of the city. Homes built across several decades along one road can have different pipe, and the only way to know is to look."
+  ],
+  "considerations": [
+   "The approximate age of the house and any sewer repairs",
+   "Whether the property is on public sewer or has another arrangement",
+   "Trees and hedgerows near the lateral",
+   "Where the cleanout is",
+   "Whether one fixture or the whole house is affected",
+   "Rain timing for any basement backup"
+  ],
+  "svcH2": "Hydro Jetting Services Along North Avenue",
+  "svcLead": "Pick the page that fits your drain's behavior.",
+  "svc": {
+   "severe-grease-and-sludge": "Family kitchens can leave film in a line, explained in {{svc:severe-grease-and-sludge|severe grease and sludge}}.",
+   "tree-root-intrusions": "Trees near open land can reach laterals, as {{svc:tree-root-intrusions|tree root intrusions}} describes.",
+   "recurring-clogs-and-slow-drains": "If a drain keeps slowing, see {{svc:recurring-clogs-and-slow-drains|recurring clogs and slow drains}}.",
+   "mineral-and-scale-deposits": "Hard scale is covered in {{svc:mineral-and-scale-deposits|mineral and scale deposits}}.",
+   "preventative-maintenance": "For planned upkeep, read {{svc:preventative-maintenance|preventative maintenance}}."
+  },
+  "appsH2": "Where Hydro Jetting Comes Up Along North Avenue",
+  "apps": [
+   {
+    "h": "Postwar homes",
+    "p": "Homes from the postwar suburban years are now many decades old. Their original pipe may have aged or been replaced in sections."
+   },
+   {
+    "h": "Larger lots near open land",
+    "p": "Longer laterals mean more pipe that could hold a root or a sag. A camera shows where."
+   },
+   {
+    "h": "Homes with additions",
+    "p": "Additions can tie new fixtures into old lines at odd angles."
+   },
+   {
+    "h": "Basement backups in wet weather",
+    "p": "Backups that follow heavy rain can point beyond your pipe. Noting timing helps separate causes."
+   }
+  ],
+  "implH2": "Hydro Jetting Considerations Along North Avenue",
+  "implPs": [
+   "A few questions come first."
+  ],
+  "impl": [
+   {
+    "h": "Pipe material",
+    "p": "A camera shows what the line is made of.",
+    "b": [
+     "Request a camera look",
+     "Share repair notes",
+     "Plan repair if damage is found"
+    ]
+   },
+   {
+    "h": "Sewer or septic",
+    "p": "Not every property uses the same system. Confirm before planning work.",
+    "b": [
+     "Confirm the system",
+     "Keep records",
+     "Ask about the limits of pipe cleaning"
+    ]
+   },
+   {
+    "h": "Long runs",
+    "p": "Longer laterals take more time to inspect and clean.",
+    "b": [
+     "Locate the cleanout",
+     "Clear a path",
+     "Ask about timing"
+    ]
+   }
+  ],
+  "planH2": "How a North Avenue Visit Is Planned",
+  "planPs": [
+   "The order is simple."
+  ],
+  "steps": [
+   {
+    "t": "Describe",
+    "d": "List fixtures and timing."
+   },
+   {
+    "t": "Find access",
+    "d": "Locate the cleanout."
+   },
+   {
+    "t": "Inspect",
+    "d": "Camera view."
+   },
+   {
+    "t": "Clean",
+    "d": "Jet to match."
+   },
+   {
+    "t": "Review",
+    "d": "Decide on follow-up."
+   }
+  ],
+  "mapH2": "North Avenue on the Map",
+  "mapIntro": "The map shows the area for orientation only. It does not mark a business or define boundaries.",
+  "map": {
+   "lat": 41.1303,
+   "lon": -81.4347,
+   "d": 0.015,
+   "label": "Area map near North Avenue, Tallmadge, Ohio",
+   "src": "https://www.openstreetmap.org/export/embed.html?bbox=-81.45420%2C41.11530%2C-81.41520%2C41.14530&layer=mapnik"
+  },
+  "nearbyH2": "Other Tallmadge Neighborhoods",
+  "nearbyP": "These pages cover the others.",
+  "faqs": [
+   {
+    "q": "Do postwar homes have the same pipe?",
+    "a": "Not necessarily. Repairs may have changed it."
+   },
+   {
+    "q": "Can roots from nearby trees reach my line?",
+    "a": "They can enter older joints."
+   },
+   {
+    "q": "Should I confirm sewer or septic?",
+    "a": "Yes. Cleaning a house drain does not repair a septic tank or soil."
+   },
+   {
+    "q": "Is jetting safe on older pipe?",
+    "a": "On sound pipe it can be."
+   },
+   {
+    "q": "Will cleaning fix a sagging pipe?",
+    "a": "No. Repair is separate."
+   },
+   {
+    "q": "Why does my basement back up in the rain?",
+    "a": "It may be a drainage or sewer issue. Note timing."
+   },
+   {
+    "q": "How long does a long lateral take to clean?",
+    "a": "It varies. Ask when scheduling."
+   },
+   {
+    "q": "What does a camera show?",
+    "a": "Material, joints, roots and damage."
+   },
+   {
+    "q": "How often should I clean?",
+    "a": "It depends on the cause."
+   },
+   {
+    "q": "What should I have ready?",
+    "a": "Address, symptoms, timing and repair history."
+   }
+  ],
+  "ctaH2": "Request Hydro Jetting on North Avenue",
+  "ctaPs": [
+   "Describe the symptoms and the line's history.",
+   "Use the form or call to ask about your address."
+  ],
+  "kind": "hood",
+  "county": "Summit County",
+  "city": "Tallmadge",
+  "intro": "Hydro jetting along North Avenue can clear grease, scale and roots from drain lines serving homes that grew along one of Tallmadge's original roads."
+ },
+ {
+  "slug": "east-avenue",
+  "name": "East Avenue",
+  "title": "Hydro Jetting on East Avenue, Tallmadge OH | Tallmadge Hydro Jetting Pros",
+  "description": "Hydro jetting for homes and businesses along East Avenue in Tallmadge, OH. Call (877) 761-0283.",
+  "hero": "Hydro jetting along East Avenue can clear grease, scale and roots from drain lines serving homes and businesses on one of Tallmadge's eight original roads. Properties range from older houses near the Circle to later suburban lots farther out. A camera look at the line first shows what each property has.",
+  "bodyH2": "Hydro Jetting Along East Avenue",
+  "bodyPs": [
+   "The [[Record-Courier explains|https://www.record-courier.com/story/news/2023/12/10/is-tallmadge-circle-one-lane-or-two-mark-j-price/71837775007/]] that eight roads meet the Circle, named North, South, East, West, Northeast, Northwest, Southwest and Southeast. East Avenue is the one that runs eastward, so it carried development outward from the center as the city grew.",
+   "The [[city's history page|https://www.tallmadgeoh.gov/210/Our-History]] says commercial development followed 1950s suburban patterns, with small convenience centers near new neighborhoods and strip-type centers along major roads. A road like East Avenue can therefore hold houses and small businesses side by side. The [[Summit County Historical Society|https://www.summithistory.org/Tallmadge]] describes the Circle at the center of town as the point the roads were built to reach.",
+   "A mixed road means mixed plumbing. Jetting suits sound lines with buildup, and an inspection decides."
+  ],
+  "considerations": [
+   "Whether the property is residential or commercial",
+   "The age of the building and any sewer repairs",
+   "Trees near the lateral",
+   "Where the cleanout sits",
+   "Which fixtures are affected",
+   "Whether the business has a grease trap"
+  ],
+  "svcH2": "Hydro Jetting Services Along East Avenue",
+  "svcLead": "Pick the page that fits your drain's behavior.",
+  "svc": {
+   "severe-grease-and-sludge": "Kitchens, from homes to small restaurants, are covered in {{svc:severe-grease-and-sludge|severe grease and sludge}}.",
+   "tree-root-intrusions": "Roots are explained in {{svc:tree-root-intrusions|tree root intrusions}}.",
+   "recurring-clogs-and-slow-drains": "For repeat slowdowns, see {{svc:recurring-clogs-and-slow-drains|recurring clogs and slow drains}}.",
+   "mineral-and-scale-deposits": "Scale is covered in {{svc:mineral-and-scale-deposits|mineral and scale deposits}}.",
+   "preventative-maintenance": "For planned cleaning, read {{svc:preventative-maintenance|preventative maintenance}}."
+  },
+  "appsH2": "Where Hydro Jetting Comes Up Along East Avenue",
+  "apps": [
+   {
+    "h": "Small businesses",
+    "p": "Shops and offices differ in what they send down drains. Telling the crew the use helps."
+   },
+   {
+    "h": "Older houses closer to the center",
+    "p": "Nearer the Circle, houses tend to be older and more altered."
+   },
+   {
+    "h": "Suburban lots farther out",
+    "p": "Later lots have newer pipe in many cases, though age alone is not proof."
+   },
+   {
+    "h": "Basement drains",
+    "p": "A floor drain that backs up first points to the main line."
+   }
+  ],
+  "implH2": "Hydro Jetting Considerations Along East Avenue",
+  "implPs": [
+   "A few questions come first."
+  ],
+  "impl": [
+   {
+    "h": "Pipe condition",
+    "p": "A camera shows whether the pipe is sound.",
+    "b": [
+     "Request a camera look",
+     "Share repair notes",
+     "Plan repair if needed"
+    ]
+   },
+   {
+    "h": "Business access",
+    "p": "Businesses need access around operating hours.",
+    "b": [
+     "Choose a slow time",
+     "Tell staff",
+     "Confirm who approves work"
+    ]
+   },
+   {
+    "h": "Public or private",
+    "p": "A private cleaning cannot repair a public sewer.",
+    "b": [
+     "Ask neighbors",
+     "Note rain timing",
+     "Report widespread backups"
+    ]
+   }
+  ],
+  "planH2": "How an East Avenue Visit Is Planned",
+  "planPs": [
+   "The order is simple."
+  ],
+  "steps": [
+   {
+    "t": "Describe",
+    "d": "List fixtures and timing."
+   },
+   {
+    "t": "Find access",
+    "d": "Locate the cleanout."
+   },
+   {
+    "t": "Inspect",
+    "d": "Camera view."
+   },
+   {
+    "t": "Clean",
+    "d": "Jet to match."
+   },
+   {
+    "t": "Review",
+    "d": "Decide on follow-up."
+   }
+  ],
+  "mapH2": "East Avenue on the Map",
+  "mapIntro": "The map shows the area for orientation only. It does not mark a business or define boundaries.",
+  "map": {
+   "lat": 41.1009,
+   "lon": -81.4158,
+   "d": 0.015,
+   "label": "Area map near East Avenue, Tallmadge, Ohio",
+   "src": "https://www.openstreetmap.org/export/embed.html?bbox=-81.43530%2C41.08590%2C-81.39630%2C41.11590&layer=mapnik"
+  },
+  "nearbyH2": "Other Tallmadge Neighborhoods",
+  "nearbyP": "These pages cover the others.",
+  "faqs": [
+   {
+    "q": "Is East Avenue mostly homes or businesses?",
+    "a": "Both. The mix means different plumbing on neighboring lots."
+   },
+   {
+    "q": "Should a business have a camera look?",
+    "a": "It helps, especially after a change of use."
+   },
+   {
+    "q": "Can roots block my line?",
+    "a": "They can enter older joints."
+   },
+   {
+    "q": "Is jetting safe on old pipe?",
+    "a": "On sound pipe it can be."
+   },
+   {
+    "q": "Will cleaning fix a broken pipe?",
+    "a": "No."
+   },
+   {
+    "q": "Why does my basement drain back up first?",
+    "a": "It sits at the low point."
+   },
+   {
+    "q": "Could it be the public sewer?",
+    "a": "If neighbors see the same backup, it may be."
+   },
+   {
+    "q": "How often should I clean?",
+    "a": "It depends on the cause."
+   },
+   {
+    "q": "What does a camera show?",
+    "a": "Material, joints, roots and damage."
+   },
+   {
+    "q": "What should I have ready?",
+    "a": "Address, symptoms, timing and repair history."
+   }
+  ],
+  "ctaH2": "Request Hydro Jetting on East Avenue",
+  "ctaPs": [
+   "Describe the symptoms and the line's history.",
+   "Use the form or call to ask about your address."
+  ],
+  "kind": "hood",
+  "county": "Summit County",
+  "city": "Tallmadge",
+  "intro": "Hydro jetting along East Avenue can clear grease, scale and roots from drain lines serving homes and businesses on one of Tallmadge's eight original roads."
+ },
+ {
+  "slug": "southeast-avenue",
+  "name": "Southeast Avenue",
+  "title": "Hydro Jetting on Southeast Avenue, Tallmadge OH | Tallmadge Hydro Jetting Pros",
+  "description": "Hydro jetting for homes and businesses along Southeast Avenue in Tallmadge, OH. Call (877) 761-0283.",
+  "hero": "Hydro jetting along Southeast Avenue can clear grease, scale and roots from drain lines serving homes and businesses on one of the eight roads that run out from Tallmadge Circle. Houses here span several building eras, so one lot can have very different pipe from the next. Look at the line first so cleaning matches it.",
+  "bodyH2": "Hydro Jetting Along Southeast Avenue",
+  "bodyPs": [
+   "The [[Beacon Journal reported|https://www.beaconjournal.com/story/news/local/2013/03/24/local-history-tallmadge-circle-is/10606259007/]] that Rev. David Bacon planned eight roads 66 feet wide at 45-degree angles from the central square. Southeast Avenue is the road that heads in that direction, one of the avenues the [[Record-Courier|https://www.record-courier.com/story/news/2023/12/10/is-tallmadge-circle-one-lane-or-two-mark-j-price/71837775007/]] lists by compass name.",
+   "The [[city's history page|https://www.tallmadgeoh.gov/210/Our-History]] notes that industrial uses were historically located near the railroad and separated from residential neighborhoods, and that much of the housing dates from the 1950s and 1960s. Older houses near the center and later houses farther out can share one road.",
+   "Different building eras mean different pipe. A camera inspection tells you which you have."
+  ],
+  "considerations": [
+   "The age of the house and any repair history",
+   "Whether the lot has mature trees near the lateral",
+   "Where the cleanout is",
+   "Whether a backup affects one fixture or several",
+   "Whether the property is residential or commercial",
+   "Rain timing for basement backups"
+  ],
+  "svcH2": "Hydro Jetting Services Along Southeast Avenue",
+  "svcLead": "Pick the page that fits your drain's behavior.",
+  "svc": {
+   "severe-grease-and-sludge": "Kitchen buildup is covered in {{svc:severe-grease-and-sludge|severe grease and sludge}}.",
+   "tree-root-intrusions": "Roots are explained in {{svc:tree-root-intrusions|tree root intrusions}}.",
+   "recurring-clogs-and-slow-drains": "For repeat slowdowns, see {{svc:recurring-clogs-and-slow-drains|recurring clogs and slow drains}}.",
+   "mineral-and-scale-deposits": "Scale is covered in {{svc:mineral-and-scale-deposits|mineral and scale deposits}}.",
+   "preventative-maintenance": "For planned cleaning, read {{svc:preventative-maintenance|preventative maintenance}}."
+  },
+  "appsH2": "Where Hydro Jetting Comes Up Along Southeast Avenue",
+  "apps": [
+   {
+    "h": "Houses from different decades",
+    "p": "Neighbors can have different pipe. A fix that worked next door may not suit your line."
+   },
+   {
+    "h": "Properties with established trees",
+    "p": "Mature trees near laterals are a common root source."
+   },
+   {
+    "h": "Small commercial properties",
+    "p": "Businesses should tell the crew the use of the building."
+   },
+   {
+    "h": "Wet-weather backups",
+    "p": "Note when backups happen to help separate private and public causes."
+   }
+  ],
+  "implH2": "Hydro Jetting Considerations Along Southeast Avenue",
+  "implPs": [
+   "A few questions come first."
+  ],
+  "impl": [
+   {
+    "h": "Pipe condition",
+    "p": "A camera shows whether the pipe is sound.",
+    "b": [
+     "Request a camera look",
+     "Share repair notes",
+     "Plan repair if needed"
+    ]
+   },
+   {
+    "h": "Access",
+    "p": "Find the cleanout ahead of time.",
+    "b": [
+     "Locate it",
+     "Clear a path",
+     "Note fences or steps"
+    ]
+   },
+   {
+    "h": "Public or private",
+    "p": "A private cleaning cannot repair a public sewer.",
+    "b": [
+     "Ask neighbors",
+     "Note rain timing",
+     "Report widespread backups"
+    ]
+   }
+  ],
+  "planH2": "How a Southeast Avenue Visit Is Planned",
+  "planPs": [
+   "The order is simple."
+  ],
+  "steps": [
+   {
+    "t": "Describe",
+    "d": "List fixtures and timing."
+   },
+   {
+    "t": "Find access",
+    "d": "Locate the cleanout."
+   },
+   {
+    "t": "Inspect",
+    "d": "Camera view."
+   },
+   {
+    "t": "Clean",
+    "d": "Jet to match."
+   },
+   {
+    "t": "Review",
+    "d": "Decide on follow-up."
+   }
+  ],
+  "mapH2": "Southeast Avenue on the Map",
+  "mapIntro": "The map shows the area for orientation only. It does not mark a business or define boundaries.",
+  "map": {
+   "lat": 41.0845,
+   "lon": -81.4175,
+   "d": 0.015,
+   "label": "Area map near Southeast Avenue, Tallmadge, Ohio",
+   "src": "https://www.openstreetmap.org/export/embed.html?bbox=-81.43700%2C41.06950%2C-81.39800%2C41.09950&layer=mapnik"
+  },
+  "nearbyH2": "Other Tallmadge Neighborhoods",
+  "nearbyP": "These pages cover the others.",
+  "faqs": [
+   {
+    "q": "Do neighbors have the same pipe?",
+    "a": "Not necessarily."
+   },
+   {
+    "q": "Can roots block my line?",
+    "a": "They can enter older joints."
+   },
+   {
+    "q": "Is jetting safe on old pipe?",
+    "a": "On sound pipe it can be."
+   },
+   {
+    "q": "Will cleaning fix a broken pipe?",
+    "a": "No."
+   },
+   {
+    "q": "Why does my basement drain back up first?",
+    "a": "It sits at the low point."
+   },
+   {
+    "q": "Could it be the public sewer?",
+    "a": "If neighbors see the same backup, it may be."
+   },
+   {
+    "q": "How often should I clean?",
+    "a": "It depends on the cause."
+   },
+   {
+    "q": "What does a camera show?",
+    "a": "Material, joints, roots and damage."
+   },
+   {
+    "q": "Should a business have a camera look?",
+    "a": "It helps, especially after a change of use."
+   },
+   {
+    "q": "What should I have ready?",
+    "a": "Address, symptoms, timing and repair history."
+   }
+  ],
+  "ctaH2": "Request Hydro Jetting on Southeast Avenue",
+  "ctaPs": [
+   "Describe the symptoms and the line's history.",
+   "Use the form or call to ask about your address."
+  ],
+  "kind": "hood",
+  "county": "Summit County",
+  "city": "Tallmadge",
+  "intro": "Hydro jetting along Southeast Avenue can clear grease, scale and roots from drain lines serving homes and businesses on one of the eight roads that run out from Tallmadge Circle."
+ }
+]

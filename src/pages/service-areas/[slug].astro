@@ -2,7 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import Hero from '../../components/Hero.astro';
 import Callout from '../../components/Callout.astro';
-import { areas, areaBySlug } from '../../data/areas';
+import { areas, areaBySlug, hoods } from '../../data/areas';
+import HoodBody from '../../components/HoodBody.astro';
 import { SITE_URL, business } from '../../lib/site';
 import { u } from '../../lib/utils';
 
@@ -10,9 +11,10 @@ export function getStaticPaths() {
   return areas.map((area) => ({ params: { slug: area.slug }, props: { area } }));
 }
 const { area: a } = Astro.props;
+const isHood = a.kind === 'hood';
 const path = `/service-areas/${a.slug}`;
-const title = `${a.name} Hydro Jetting Service Area | ${business.name}`;
-const description = `${business.name} takes hydro jetting requests for drain lines in ${a.name}, Ohio. Learn what to expect and request service for your home or business.`;
+const title = a.kind === 'hood' ? a.title : `${a.name} Hydro Jetting Service Area | ${business.name}`;
+const description = a.kind === 'hood' ? a.description : `${business.name} takes hydro jetting requests for drain lines in ${a.name}, Ohio. Learn what to expect and request service for your home or business.`;
 const pageUrl = `${SITE_URL}${path}`;
 const service = {
   '@context': 'https://schema.org',
@@ -24,8 +26,8 @@ const service = {
   areaServed: { '@type': a.place === 'city' ? 'City' : 'AdministrativeArea', name: `${a.name}, Ohio` },
   description,
 };
-const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: a.faqs.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) };
-const nearby = a.nearby.map((s) => areaBySlug[s]);
+const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: a.faqs.map(f => ({ '@type': 'Question', name: f.question ?? f.q, acceptedAnswer: { '@type': 'Answer', text: f.answer ?? f.a } })) };
+const nearby = isHood ? [] : hoods;
 const srcSentence = (items: [string, string][], cls = '') => {
   const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
   const links = items.map(([url, label]) => `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer"${cls ? ` class="${cls}"` : ' style="text-decoration:underline"'}>${esc(label.replace(/\s*\([^)]*\)\s*$/, '').replace(/:\s+/, ' '))}</a>`);
@@ -33,8 +35,9 @@ const srcSentence = (items: [string, string][], cls = '') => {
   return `The background on this page comes from ${list}.`;
 };
 ---
-<Base title={title} description={description} path={path} crumbs={[{ name: 'Service Areas', path: '/service-areas' }, { name: a.name, path }]} extraSchema={[service, faqSchema]}>
-  <Hero headline={`Hydro jetting in ${a.name}, Ohio`} intro={a.intro} location={`${a.name}, OH`} crumbs={[{ href: '/service-areas', label: 'Service Areas' }, { href: path, label: a.name }]} />
+<Base title={title} description={description} path={path} crumbs={[{ name: 'Neighborhoods', path: '/service-areas' }, { name: a.name, path }]} extraSchema={[service, faqSchema]}>
+  <Hero headline={isHood ? `Hydro jetting in ${a.name}, Tallmadge OH` : `Hydro jetting in ${a.name}, Ohio`} intro={isHood ? a.hero : a.intro} location={`${a.name}, OH`} crumbs={[{ href: '/service-areas', label: 'Neighborhoods' }, { href: path, label: a.name }]} />
+  {isHood ? <HoodBody a={a} /> : (<>
   <section class="content-section"><div class="content-inner">
     <div class="prose">
       <h2 class="section-title">{a.title}</h2>
@@ -47,10 +50,10 @@ const srcSentence = (items: [string, string][], cls = '') => {
 
   </div></section>
   <section class="content-section" style="background:#eeece2"><div class="content-inner">
-    <h2 class="section-title">Nearby towns</h2>
+    <h2 class="section-title">Neighborhoods</h2>
     <div class="pill-grid">
-      {nearby.map((n) => <a class="pill" href={u(`/service-areas/${n.slug}`)}>Hydro jetting in {n.name}</a>)}
-      <a class="pill" href={u('/service-areas')}>All service areas</a>
+      {nearby.map((n) => <a class="pill" href={u(`/service-areas/${n.slug}`)}>{n.name}</a>)}
+      <a class="pill" href={u('/service-areas')}>All neighborhoods</a>
     </div>
   </div></section>
 
@@ -60,5 +63,6 @@ const srcSentence = (items: [string, string][], cls = '') => {
     {a.faqs.map(f => <details style="border-bottom:1px solid #d5d6cc;padding:18px 0"><summary style="font-weight:600;cursor:pointer">{f.question}</summary><p style="margin-top:12px">{f.answer}</p></details>)}
     <p style="margin-top:32px" set:html={srcSentence(a.sources.map((s) => [s.url, s.label]))} />
   </div></section>
+  </>)}
   <Callout title={`Need hydro jetting in ${a.name}?`} text="Include your address and what the drain is doing, and we will follow up." />
 </Base>
